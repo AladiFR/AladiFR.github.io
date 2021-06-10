@@ -9,9 +9,6 @@
 }
 
 header {
-    position: flex;
-    top: 0;
-
     display: flex;
     justify-content: space-between;
     background-color: var(--color-secund);
