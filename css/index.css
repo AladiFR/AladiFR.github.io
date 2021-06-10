@@ -1,4 +1,17 @@
+:root {
+    --color-first: #1DD1A1;
+    --color-secund: #82589F;
+    --color-third: #fff;
+    
+    --color-black-first: #000;
+    --color-black-secund: #2F3542;
+    --color-black-third: #A4B0BE;
+}
+
 header {
+    position: flex;
+    top: 0;
+
     display: flex;
     justify-content: space-between;
     background-color: var(--color-secund);
@@ -29,23 +42,15 @@ a::before {
     margin-right: 10px;
 }
 
-button {
+#button {
     display: inline-block;
     background-color: var(--color-first);
     box-shadow: 5px 5px 0px var(--color-black-first);
     padding: 18px 20px;
     margin-right: 0;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    font-weight: 500;  
-    text-decoration: none;
-    color: var(--color-third);
-    cursor: pointer;
-    border-radius: 0;
-    border: none;
-    transition: tranform 150ms ease-in-out;
+    transition: tranform 150ms linear;
 }
 
-button:hover {
+#button:hover {
     transform: scale(1.05);
 }
