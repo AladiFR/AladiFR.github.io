@@ -10,8 +10,9 @@
     border: none;
     transition: transform 200ms ease-in-out;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
     transform: scale(1.05);
 }
