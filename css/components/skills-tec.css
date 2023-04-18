@@ -1,5 +1,6 @@
 .skills-tec {
     display: flex;
+    align-items: center;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 25px;
     color: #fff;
@@ -7,10 +8,15 @@
 
 .skills-tec .icon {
     margin-right: 25px;
+    width: 90px;
 }
 
 .skills-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skills-tec .title {
+    margin-bottom: 10px;
 }
