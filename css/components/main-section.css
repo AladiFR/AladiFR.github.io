@@ -15,6 +15,15 @@
     padding-bottom: 90px;
 }
 
-.main-section.-bdFirst {
-    border-bottom: 10px solid #82589F;
+.main-section.-bdGray {
+    border-bottom: 10px solid #2F3542;
+}
+
+.main-section.-about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-section.-bdBlack {
+    border-bottom: 10px solid #000;
 }
