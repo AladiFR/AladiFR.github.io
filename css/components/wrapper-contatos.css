@@ -1,0 +1,9 @@
+.wrapper-contatos {
+    display: flex;
+    flex-direction: column;
+    max-width: 1360px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}

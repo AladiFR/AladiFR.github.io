@@ -27,10 +27,14 @@
         <link rel="stylesheet" href="css/components/main-carousel.css">
         <link rel="stylesheet" href="css/components/button-arrow.css">
         <link rel="stylesheet" href="css/components/node-card.css">
+        <link rel="stylesheet" href="css/components/wrapper-contatos.css">
+        <link rel="stylesheet" href="css/components/main-label.css">
+        <link rel="stylesheet" href="css/components/main-input.css">
+        <link rel="stylesheet" href="css/components/main-footer.css">
     </head>
     <body>
         <header class="main-header"> 
-            <img src="assets/imgs/logo.png">
+            <img src="img/logo.png">
 
             <nav> <!-- navegation -->
                 <a class="main-action" href="" lang="en">Skills</a> <!-- anchor de ancora --> 
@@ -63,8 +67,8 @@
                     <img class="icon" src="img/ico_html5.png" alt="Ícone HTML5 pixel">
                     <div class="right">
                         <h3 class="title">HTML</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="40">
+                            40%
                         </progress>
                     </div>    
                 </article>
@@ -72,8 +76,8 @@
                     <img class="icon" src="img/ico_nodejs.png" alt="Ícone NodeJS pixel">
                     <div class="right">
                         <h3 class="title">NodeJS</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                 </article>
@@ -81,8 +85,8 @@
                     <img class="icon" src="img/ico_css3.png" alt="Ícone CSS3 pixel">
                     <div class="right">
                         <h3 class="title">CSS</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="40">
+                            40%
                         </progress>
                     </div>
                 </article>
@@ -90,8 +94,8 @@
                     <img class="icon" src="img/ico_tdd.png" alt="Ícone TDD pixel">
                     <div class="right">
                         <h3 class="title">TDD</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                 </article>
@@ -99,8 +103,8 @@
                     <img class="icon" src="img/ico_js.png" alt="Ícone JavaScript pixel">
                     <div class="right">
                         <h3 class="title">JavaScript</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="10">
+                            10%
                         </progress>
                     </div>
                 </article>
@@ -108,8 +112,8 @@
                     <img class="icon" src="img/ico_restapi.png" alt="Ícone RestAPI pixel">
                     <div class="right">
                         <h3 class="title">Rest API</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                 </article>
@@ -117,8 +121,8 @@
                     <img class="icon" src="img/ico_react.png" alt="Ícone REACT pixel">
                     <div class="right">
                         <h3 class="title">React</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                 </article>
@@ -126,8 +130,8 @@
                     <img class="icon" src="img/ico_ux.png" alt="Ícone UX pixel">
                     <div class="right">
                         <h3 class="title">UX</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                 </article>
@@ -213,7 +217,33 @@
                 </p>
             </div>
         </section>
+        <section class="main-section -bgGray -clean">
+            <h2 class="main-title -second">Contatos</h2>
 
+            <div class="wrapper-contatos">
+                <label for="Nome" class="main-label">Nome</label>
+                <input type="text" class="main-input" placeholder=""></input>
+
+                <label for="Email" class="main-label">Email</label>
+                <input type="text" class="main-input" placeholder=""></input>
+
+                <label for="Mensagem" class="main-label">Mensagem</label>
+                <input type="text" class="main-input -second" placeholder=""></input>
+            </div>
+
+            <a href="" class="main-button -end">Enviar</a>
+        </section>
+        <footer class="main-footer">
+            <a class="icons" href="" target="_blank">
+                <img src="img/icon_twitter.png" alt="Logo Twitter em pixel">
+            </a>
+            <a class="icons" href="https://github.com/AladiFR" target="_blank">
+                <img src="img/icon_github.png" alt="Logo Github em pixel">
+            </a>
+            <a class="icons" href="https://www.instagram.com/theus_lr/" target="_blank">
+                <img src="img/icon_instagram.png" alt="Logo Instagram em pixel">
+            </a>
+        </footer>
         <script src="js/components/main-carousel.js"></script>
     </body>
 </html>
