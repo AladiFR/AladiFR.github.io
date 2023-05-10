@@ -1,0 +1,14 @@
+.main-input {
+    margin-bottom: 20px;
+    border: 5px solid #000;
+    height: 50px;
+
+}
+
+.main-input::placeholder {
+    font-size: 40px;
+}
+
+.main-input.-second {
+    height: 300px;
+}
