@@ -1,8 +1,17 @@
 .main-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    background-color: #2F3542;
+    padding: 50px 40px;
 
+}
+
+.main-form .main-title{
+    margin-bottom: 50px;
+}
+
+.main-form .main-input {
+    margin-bottom: 20px;
+}
+
+.main-form .main-input.-textarea {
+    margin-bottom: 50px;
 }

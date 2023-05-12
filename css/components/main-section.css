@@ -27,12 +27,3 @@
 .main-section.-bdBlack {
     border-bottom: 10px solid #000;
 }
-
-.main-section.-bgGray {
-    background-color: #2F3542;
-}
-
-.main-section.-clean {
-    border-bottom: none;
-    padding-bottom: 50px;
-} 
