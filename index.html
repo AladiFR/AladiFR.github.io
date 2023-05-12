@@ -27,9 +27,10 @@
         <link rel="stylesheet" href="css/components/main-carousel.css">
         <link rel="stylesheet" href="css/components/button-arrow.css">
         <link rel="stylesheet" href="css/components/node-card.css">
-        <link rel="stylesheet" href="css/components/wrapper-contatos.css">
+        <link rel="stylesheet" href="css/components/main-form.css">
         <link rel="stylesheet" href="css/components/main-label.css">
         <link rel="stylesheet" href="css/components/main-input.css">
+        <link rel="stylesheet" href="css/components/main-textarea.css">
         <link rel="stylesheet" href="css/components/main-footer.css">
     </head>
     <body>
@@ -220,18 +221,20 @@
         <section class="main-section -bgGray -clean">
             <h2 class="main-title -second">Contatos</h2>
 
-            <div class="wrapper-contatos">
-                <label for="Nome" class="main-label">Nome</label>
-                <input type="text" class="main-input" placeholder=""></input>
+            <form class="main-form">
+                <label for="name" class="main-label">Nome</label>
+                <input type="text" id="name" class="main-input" placeholder=""></input>
 
-                <label for="Email" class="main-label">Email</label>
-                <input type="text" class="main-input" placeholder=""></input>
+                <label for="email" class="main-label">Email</label>
+                <input type="email" id="email" class="main-input" placeholder=""></input>
 
-                <label for="Mensagem" class="main-label">Mensagem</label>
-                <input type="text" class="main-input -second" placeholder=""></input>
-            </div>
+                <label for="message" class="main-label">Mensagem</label>
+                <textarea name="" id="" class="main-textarea"></textarea>
 
-            <a href="" class="main-button -end">Enviar</a>
+                <button type="submit" class="main-button -form">Enviar</button>
+            </form>
+
+        
         </section>
         <footer class="main-footer">
             <a class="icons" href="" target="_blank">

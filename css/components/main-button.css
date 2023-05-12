@@ -17,17 +17,16 @@
     transform: scale(1.05);
 }
 
-.main-button.-end {
+.main-button.-form {
     text-align: center;
     font-size: 30px;
     font-weight: 300;
     line-height: 40px;
     width: 1360px;
     padding: 10px 0px;
-    margin-left: 40px;
     margin-top: 30px;
 }
 
-.main-button.-end:hover {
+.main-button.-form:hover {
     transform: scale(1.02);
 }
